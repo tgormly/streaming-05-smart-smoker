@@ -1,11 +1,11 @@
 # Task 1. Create a Place to Work.
 
-<ol><li>In GitHub, create a new repo for your project - name it streaming-05-smart-smoker</li>
-<li>Add a README.md during the creation process. (If not, you can always add it later.)</li>
-<li>Clone your repo down to your machine. </li>
-<li>In VS Code, add a .gitignore (use one from an earlier module), start working on the README.md. Create it if you didn't earlier.</li>
-<li>Add the csv data file to your repo. </li>
-<li>Create a file for your bbq producer.</li></ol>
+<ol><li>In GitHub, create a new repo for your project - name it streaming-05-smart-smoker ✅ </li>
+<li>Add a README.md during the creation process. (If not, you can always add it later.) ✅ </li>
+<li>Clone your repo down to your machine.  ✅ </li>
+<li>In VS Code, add a .gitignore (use one from an earlier module), start working on the README.md. Create it if you didn't earlier. ✅ </li>
+<li>Add the csv data file to your repo.  ✅ </li>
+<li>Create a file for your bbq producer. ✅ </li></ol>
 
 # Task 2. Design and Implement Your Producer
 

@@ -9,14 +9,14 @@
 
 # Task 2. Design and Implement Your Producer
 
-<ol><li>Implement your bbq producer. More detailed help provided in links below. </li>
-<li>Use the logic, approach, and structure from Module 4, version 2 and version 3.</li>
-<<li>These provide a current and solid foundation for streaming analytics - modifying them to serve your purpose IS part of the assignment.</li>
-<li>Do not start from scratch - do not search for code - do not use a notebook.</li>
-<li>Use comments in the code and repo to explain your work. </li>
-<li>Use docstring comments and add your name and date to your README and your code files. </li>
-<li>Explain your project in the README. Include prerequisites and how to run your code. </li>
-<li>Document your project works - display screenshots of your console and maybe the RabbitMQ console. </li>
+<ol><li>Implement your bbq producer. More detailed help provided in links below. ✅  </li>
+<li>Use the logic, approach, and structure from Module 4, version 2 and version 3. ✅ </li>
+<<li>These provide a current and solid foundation for streaming analytics - modifying them to serve your purpose IS part of the assignment. ✅ </li>
+<li>Do not start from scratch - do not search for code - do not use a notebook. ✅ </li>
+<li>Use comments in the code and repo to explain your work ✅ . </li>
+<li>Use docstring comments and add your name and date to your README and your code files. ✅ </li>
+<li>Explain your project in the README. Include prerequisites and how to run your code. ✅ </li>
+<li>Document your project works - display screenshots of your console and maybe the RabbitMQ console. ✅ </li>
 <li>If you only have a producer, you won't have a consumer showing messages yet, so you'll need to be creative. We'll build the consumers next. </li></ol>
 
 # Required Approach

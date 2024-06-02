@@ -21,7 +21,6 @@ import csv
 import struct
 import time 
 from datetime import datetime
-
 from util_logger import setup_logger
 
 logger, logname = setup_logger(__file__)

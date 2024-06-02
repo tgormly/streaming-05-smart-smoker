@@ -10,10 +10,14 @@ In this module, we will use multiple producers, consumers, and RabbitMQ queues t
 
 Not impletemented at this time - several Consumers will be used to receive messages from RabbitMQ and handle them accordingly.
 
+<hr>
+
 ### Requirements
 A valid Python environment is required, as well as the pika library.  This repo was written in Python 3.11.9.
 
 RabbitMQ services will need to be active.  Additional information on RabbitMQ can be found here: https://www.rabbitmq.com/tutorials
+
+<hr>
 
 ### Executing Code
 First initialize RabbitMQ services

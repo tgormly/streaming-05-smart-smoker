@@ -8,7 +8,7 @@ In this module, we will use multiple producers, consumers, and RabbitMQ queues t
 
 <strong>Emitter of Tasks</strong> will simulate receiving readings from the sensors on a smart smoker and producing messages from the readings that are sent to RabbitMQ.
 
-Not impletemented at this time - several Consumers will be used to receive messages from RabbitMQ and handle them accordingly.
+<strong>Listening Worker</strong> A single listening worker Will be used to receive messages from three separate RabbitMQ queues and handle them accordingly.
 
 <hr>
 

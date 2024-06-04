@@ -37,6 +37,7 @@ Depending on the contents of the different columns in the file, a message will m
 Run the script in a console to begin sending messages.
 
 ![Image of console output while worker is sending messages](/Images/Producer_Console.png)
+
 <em>Console output while worker is sending messages</em>
 
 ## Listening Worker

@@ -156,9 +156,6 @@ def main(hn: str = "localhost"):
 
         # Declare queues
         queues = ('01-smoker', '02-food-A', '03-food-B')
-        channel.queue_delete(queue='task_queue')
-        channel.queue_delete(queue='task_queue2')
-        channel.queue_delete(queue='task_queue3')
 
         # create durable queue for each queue
         for queue in queues:

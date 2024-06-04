@@ -55,3 +55,9 @@ Run the script in a console to begin receiving messages.
 ![Image of console output while worker is receiving messages](/Images/Smoker_Alert.png)
 
 <em>Log file from worker session. Alert for drop in smoker temperature can be seen.</em>
+
+![Image of console output while worker is receiving messages](/Images/Smoker_Alert.png)
+
+<em>Producer and Consumer working simultaneously.</em>
+
+Tim Gormly

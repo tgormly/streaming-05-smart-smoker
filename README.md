@@ -52,6 +52,6 @@ Run the script in a console to begin receiving messages.
 
 <em>Console output while worker is receiving messages.  Alerts for food stalling on both sensors can be seen.</em>
 
-![Image of console output while worker is receiving messages](/Images/Consumer_Console.png)
+![Image of console output while worker is receiving messages](/Images/Smoker_Alert.png)
 
 <em>Console output while worker is receiving messages. Alert for drop in smoker temperature can be seen.</em>

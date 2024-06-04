@@ -48,4 +48,7 @@ The data from each sensor will be added to a Python deque that keeps a window of
 Run the script in a console to begin receiving messages.
 
 ![Image of console output while worker is receiving messages](/Images/Consumer_Console.png)
-<em>Console output while worker is receiving messages</em>
+<em>Console output while worker is receiving messages.  Alerts for food stalling on both sensors can be seen.</em>
+
+![Image of console output while worker is receiving messages](/Images/Consumer_Console.png)
+<em>Console output while worker is receiving messages. Alert for drop in smoker temperature can be seen.</em>

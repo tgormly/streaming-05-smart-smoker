@@ -146,7 +146,7 @@ def main():
 
                 # wait 30 seconds before reading next row
                 time.sleep(30)
-                # time.sleep(.1) # for testing
+                # time.sleep(.05) # for testing
 
     except Exception as e:
         logger.info(f'ERROR: {e}')
@@ -162,3 +162,5 @@ if __name__ == "__main__":
     # transmit task list
     logger.info(f'Beginning process: {__name__}')
     main()
+
+# Tim Gormly - 6/3/2024    

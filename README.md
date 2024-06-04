@@ -24,7 +24,7 @@ First initialize RabbitMQ services
 
 In one console, run <code>emitter_of_tasks.py</code>
 
-Not implemented at this time - launch consumer(s) in separate console(s)
+In another console, run <code>listening_worker.py</code>
 
 <hr>
 
@@ -34,6 +34,18 @@ This script will read one line from a csv file every 30 seconds.
 
 Depending on the contents of the different columns in the file, a message will me routed to each appropriate queue, per row.
 
-## Consumers
+Run the script in a console to begin sending messages.
 
-Not yet implemented. However, these will ingest messages from each RabbitMQ queue and handle them appropriately: based on the sensor readings, the following questions will be answered: Has the meat stalled? Is the smoker losing temperature?
+![Image of console output while worker is sending messages](/Images/Producer_Console.png)
+<em>Console output while worker is sending messages</em>
+
+## Listening Worker
+
+The script creates one worker that will listen to three separate RabbitMQ queues on one connection.
+
+The data from each sensor will be added to a Python deque that keeps a window of the most recent X values.  Each time a new value is added, that sensor's deque is reviewed for any issues.
+
+Run the script in a console to begin receiving messages.
+
+![Image of console output while worker is receiving messages](/Images/Consumer_Console.png)
+<em>Console output while worker is receiving messages</em>

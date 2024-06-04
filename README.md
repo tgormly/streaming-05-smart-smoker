@@ -54,4 +54,4 @@ Run the script in a console to begin receiving messages.
 
 ![Image of console output while worker is receiving messages](/Images/Smoker_Alert.png)
 
-<em>Console output while worker is receiving messages. Alert for drop in smoker temperature can be seen.</em>
+<em>Log file from worker session. Alert for drop in smoker temperature can be seen.</em>
